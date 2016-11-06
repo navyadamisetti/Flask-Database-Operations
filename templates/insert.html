@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Insertion</title>
+	</head>
+	<body>
+		<style>
+			body
+			 {
+    			background-color:mistyrose;
+			 }
+		</style>
+		<center>
+			<h1><p style="font-family:arial; color:indigo;">Here you can Insert new details for trip list</p></h1>
+			<hr />
+			<form action="http://localhost:5000\create1" method="post">
+				Name      :  <input type="text" name="name"/>
+				<br>
+				<br>
+				Latitude  :  <input type="text" name="latitude" />
+				<br>
+				<br>
+				Longitude  :  <input  type="text" name="longitude" />
+				<br>
+				<br>
+				<input type="submit" name="submit" value="Insert" />
+				<input type="reset" name="reset"  value="Reset" />
+			</form>
+		</center>
+	</body>
+</html>
