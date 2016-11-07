@@ -1,7 +1,7 @@
 # CRUD operations using Flask and Database in Ubuntu
    This is to create a list about trip using flask functions where the user can implement CRUD operations using web pages.
    
-## Requirements
+## Requirements>>>
 
 - python: Json, Flask, pymysql, Requests, Collections, render_template, request, jsonify, redirect, url_for
 - MySQL Database
@@ -20,7 +20,7 @@ $sudo apt-get install python-pymysql
 - created a table "location" with columns ID(Primary Key), Name, Latitude and Longitude.
 
 
-## Python-Flask
+## Python-Flask>>>
 
 My [Python-Flask code](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/final_asg.py) has different functions to insert, update, delete data and also convert this native data into Json format.
 - Connection with "navya" database in MySQL.
@@ -33,9 +33,27 @@ My [Python-Flask code](https://github.com/navyadamisetti/Flask-Database-Operatio
 This is saved in a folder with the name of this file "final_asg".
 A new file named ["templates"](https://github.com/navyadamisetti/Flask-Database-Operations/tree/master/templates) will be created in "final_asg" folder.
 
-### Main Menu
+### Main Menu:
 
+- From Line 19 to Line 25: [final_asg.py](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/final_asg.py)
 - HTML code for Index : [click here](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/templates/index.html)
 - It only displays a page used to select the operations that we want to perform.
 - OUTPUT: Webpage
 ![alt tag](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/Outputss/index.png)
+
+### List in Tabular Format:
+
+- From Line 29 to Line 36: [final_asg.py](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/final_asg.py)
+- HTML code for Trip List: [click here](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/templates/list.html)
+- By using for loop it displays whole data.
+- It also had link to Main Menu.
+- OUTPUT: Webpage
+![alt tag](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/Outputss/triplist.png)
+
+### List in Json Format:
+
+- From Line 40 to Line 54: [final_asg.py](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/final_asg.py)
+- Serialization can be done to the data in "navya" to convert it to Json Data.
+- HTML code for Trip List in Json Format: [click here](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/templates/jsonlist.html)
+- OUTPUT: Webpage
+![alt tag](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/Outputss/json.png)
