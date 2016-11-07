@@ -81,8 +81,8 @@ A new file named ["templates"](https://github.com/navyadamisetti/Flask-Database-
 - OUTPUT: Webpage1
 ![alt tag](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/Outputss/update1.png)
 
--This leads to another webpage where we actually update the data.
--HTML code for it: [click here](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/templates/update1.html)
+- This leads to another webpage where we actually update the data.
+- HTML code for it: [click here](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/templates/update1.html)
 
 - OUTPUT: Webpage2
 ![alt tag](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/Outputss/update2.png)
@@ -96,7 +96,7 @@ A new file named ["templates"](https://github.com/navyadamisetti/Flask-Database-
 
 - From Line 112 to Line 125: [final_asg.py](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/final_asg.py)
 - We need to enter the key for which the data wanted to be deleted.
--HTML code for it: [click here](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/templates/delete.html)
+- HTML code for it: [click here](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/templates/delete.html)
 
 - OUTPUT: Webpage1
 ![alt tag](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/Outputss/delete1.png)
