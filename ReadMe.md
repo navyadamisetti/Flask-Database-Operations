@@ -38,3 +38,4 @@ A new file named ["templates"](https://github.com/navyadamisetti/Flask-Database-
 - HTML code for Index : [click here](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/templates/index.html)
 - It only displays a page used to select the operations that we want to perform.
 - OUTPUT: Webpage
+![alt tag](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/Outputss/index.png)
