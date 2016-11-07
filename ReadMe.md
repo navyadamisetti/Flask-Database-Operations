@@ -107,3 +107,4 @@ A new file named ["templates"](https://github.com/navyadamisetti/Flask-Database-
 ![alt tag](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/Outputss/delete2.png)
 ## Thank you
 #### [Navya@LinkedIn](https://in.linkedin.com/in/navya-damisetti)
+#### [Navya@hackerrank](https://www.hackerrank.com/Navya_14)
