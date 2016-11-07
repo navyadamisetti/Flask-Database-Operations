@@ -8,7 +8,7 @@
 - Html
 
 
-## setting up:
+## setting up :+1:
 - Firstly installed pip, flask, virtualenv, pymysql.
 ```
 $sudo apt-get install pthon-pip
@@ -34,3 +34,7 @@ This is saved in a folder with the name of this file "final_asg".
 A new file named ["templates"](https://github.com/navyadamisetti/Flask-Database-Operations/tree/master/templates) will be created in "final_asg" folder.
 
 ### Main Menu
+
+- HTML code for Index : [click here](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/templates/index.html)
+- It only displays a page used to select the operations that we want to perform.
+- OUTPUT: Webpage
