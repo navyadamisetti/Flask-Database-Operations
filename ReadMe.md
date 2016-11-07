@@ -1,4 +1,6 @@
 # CRUD operations using Flask and Database in Ubuntu
+   This is to create a list about trip using flask functions where the user can implement CRUD operations using web pages.
+   
 ## Requirements
 
 - python: Json, Flask, pymysql, Requests, Collections, render_template, request, jsonify, redirect, url_for
@@ -16,3 +18,6 @@ $sudo apt-get install python-pymysql
 ```
 - entered MySQL and created a database "navya" 
 - created a table "location" with columns ID(Primary Key), Name, Latitude and Longitude.
+
+
+## 
