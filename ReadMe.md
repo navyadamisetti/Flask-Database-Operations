@@ -23,3 +23,10 @@ $sudo apt-get install python-pymysql
 ## Python-Flask
 
 My [Python-Flask code](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/final_asg.py) has different functions to insert, update, delete data and also convert this native data into Json format.
+- Connection with "navya" database in MySQL.
+- Route for Main Menu.
+- Route for list in Tabular Format.
+- Route for list in Json Format.
+- Route for insertion of details.
+- Route for Updation of data.
+- Route for Deletion of data.
