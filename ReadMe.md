@@ -30,3 +30,7 @@ My [Python-Flask code](https://github.com/navyadamisetti/Flask-Database-Operatio
 - Route for insertion of details.
 - Route for Updation of data.
 - Route for Deletion of data.
+This is saved in a folder with the name of this file "final_asg".
+A new file named ["templates"](https://github.com/navyadamisetti/Flask-Database-Operations/tree/master/templates) will be created in "final_asg" folder.
+
+### Main Menu
