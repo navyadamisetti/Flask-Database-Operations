@@ -26,16 +26,14 @@ def Main_Menu():
 
 
 
-
 @app.route("/list") #Route for list displaying
 def list():
     """This will execute query that is used to get 
     all the rows of table Location"""
     obj.execute("SELECT * FROM location")
     data=obj.fetchall()
+    
     return render_template('list.html', data = data)
-
-
 
 
 
@@ -52,9 +50,8 @@ def json_list():
         b['Longitude'] = row[3]
         objs.append(b)
     a = json.dumps(objs)    #serialization
+    
     return render_template("jsonlist.html",b=a)     
-
-
 
 
 
@@ -64,10 +61,7 @@ def create_demo():
 
 
 
-
-
 @app.route('/create1',methods=['POST','GET']) #Route to execute insert Query
-
 def create_1():
     """Here the values taken in create route will
     be inserted by executing query"""
@@ -75,9 +69,8 @@ def create_1():
         z=request.form['name'] # taking the values from the form
 	obj.execute("""INSERT into location(Name,Latitude,Longitude) VALUES (%s,%s,%s)""",(z,request.form['latitude'],request.form['longitude']))
         conn.commit()
+	
 	return redirect(url_for('list'))
-
-
 
 
 
@@ -86,30 +79,21 @@ def update_demo():
     return render_template('update.html')
 
 
-'''
-@app.route("/success") #Route for success
-def success():
-    return render_template("success.html")
-'''
 
 @app.route('/update1',methods=['POST','GET'])#Linked up with /update/ to update new details by giving ID
 def update_new_details():
-
     if request.method=='POST':
         update=request.form['Name']
         query="SELECT ID,Name,Latitude,Longitude from location WHERE ID=%s"
         x=update
         obj.execute(query,x)
         datax=obj.fetchall()	
-        return render_template('update1.html',datax=datax)
-
-
-
+        
+	return render_template('update1.html',datax=datax)
 
 
 
 @app.route('/update2', methods=['POST','GET'])#update values based on ID using forms
-
 def details_update():
 	"""It will update the values Based on the ID given by the user"""
 	if request.method=='POST':
@@ -125,24 +109,21 @@ def details_update():
 
 
 
-
-
-
 @app.route("/delete/") #Route for Deletion
 def delete():
     return render_template("delete.html")
 
 
 
-
 @app.route('/delete1',methods=['POST','GET'])#This is connect with /delete
 def delete1():
-	
     if request.method=='POST':
         delete1=request.form['id']
         e="DELETE from location where ID=%s"
     obj.execute(e,delete1)
     conn.commit()
     return redirect(url_for('list'))
+
+
 
 app.run()
