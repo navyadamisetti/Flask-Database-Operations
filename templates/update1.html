@@ -2,35 +2,34 @@
 <html>
    <head>
    	<style>
-				body 
-				{
-    			  background-color:mistyrose;
-				}
-			</style>
+	    body 
+	      {
+    		background-color:mistyrose;
+	      }
+	</style>
    </head>
 	<body>
- 		<center>
-			<h1><p style="font-family:arial; color:indigo;">Insert the values</p></h1>
-			<hr />
-		
-			<form action="http://localhost:5000\update2" method="post">
+            <center>
+		<h1><p style="font-family:arial; color:indigo;">Insert the values</p></h1>
+		<hr />
+		<form action="http://localhost:5000\update2" method="post">
 			{% for row in datax %}
 			    ID        :  <input type="text" value="{{row[0]}}" name="id"/>
 			    	<br>
 			    	<br>
-				Name      :  <input type="text" value="{{row[1]}}" name="name"/>
-					<br>
-					<br>
-				Latitude  :  <input type="text" value="{{row[2]}}" name="latitude" />
-					<br>
-					<br>
-				Longitude  :  <input  type="text" value="{{row[3]}}" name="longitude" />
-					<br>
-					<br>
-				<input type="submit" name="submit" value="Insert" />
-				<input type="reset" name="reset"  value="Reset" />
-			{% endfor %}
-			</form>
-</center>
-</body>
+			    Name      :  <input type="text" value="{{row[1]}}" name="name"/>
+				<br>
+				<br>
+		      	    Latitude  :  <input type="text" value="{{row[2]}}" name="latitude" />
+				<br>
+				<br>
+		            Longitude  :  <input  type="text" value="{{row[3]}}" name="longitude" />
+				<br>
+				<br>
+			<input type="submit" name="submit" value="Insert" />
+			<input type="reset" name="reset"  value="Reset" />
+	     	        {% endfor %}
+		</form>
+          </center>
+     </body>
 </html>
