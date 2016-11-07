@@ -1,34 +1,36 @@
  <!DOCTYPE html>
 <html>
-<head>
-<title>List</title>
-</head>
-<body>
-<style>
-body {
-    background-color:mistyrose;
-}
-</style>
-<center>
-<h1><p style="font-family:arial; color:indigo;">****TRIP LIST****</p></h1>
-<hr />
-<table border="1" cellpadding="10" cellspacing="0">
-<tr>
-  <th>ID</th>
-  <th>Name</th>
-  <th>Latitude</th>
-  <th>longitude</th>
-</tr>
-{% for row in data %}
-  <tr>
-   {% for d in row %}
-    <td>{{d}}</td>
-   {% endfor %}
- 
-  </tr>
-{% endfor %}
-</table>
-<a href="/">Go back to "Index"</a>
-</center>
-</body>
+    <head>
+        <title>List</title>
+        <style>
+            body
+             {
+                background-color:mistyrose;
+                font-family:arial;
+                color:indigo;
+             }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1><p>****TRIP LIST****</p></h1>
+            <hr />
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Latitude</th>
+                    <th>longitude</th>
+                </tr>
+              {% for row in data %}
+                 <tr>
+                  {% for d in row %}
+                 <td>{{d}}</td>
+                  {% endfor %}
+                 </tr>
+                  {% endfor %}
+            </table>
+        <a href="/">Go back to "Index"</a>
+        </center>
+    </body>
 </html>
