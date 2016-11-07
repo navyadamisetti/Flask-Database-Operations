@@ -57,3 +57,52 @@ A new file named ["templates"](https://github.com/navyadamisetti/Flask-Database-
 - HTML code for Trip List in Json Format: [click here](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/templates/jsonlist.html)
 - OUTPUT: Webpage
 ![alt tag](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/Outputss/json.png)
+
+### Insertion:
+
+- From Line 58 to Line 73: [final_asg.py](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/final_asg.py)
+- We have to insert Name, Latitude and Longitude.
+- As ID is a primary key it is in incremental model.
+- HTML code for Insertion: [click here](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/templates/insert.html)
+- OUTPUT: Webpage1
+![alt tag](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/Outputss/insert1.png)
+
+- This leads to the Trip list in Tabular Format after the Insertion.
+
+- OUTPUT: Webpage2
+![alt tag](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/Outputss/insert2.png)
+
+### Updation:
+
+- From Line 77 to Line 108: [final_asg.py](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/final_asg.py)
+- We need to enter the key for which we want to update data.
+- HTML code for it is: [click here](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/templates/update.html)
+
+- OUTPUT: Webpage1
+![alt tag](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/Outputss/update1.png)
+
+-This leads to another webpage where we actually update the data.
+-HTML code for it: [click here](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/templates/update1.html)
+
+- OUTPUT: Webpage2
+![alt tag](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/Outputss/update2.png)
+
+- This leads to the Trip list in Tabular Format after the Updation.
+
+- OUTPUT: Webpage3
+![alt tag](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/Outputss/update3.png)
+
+### Deletion
+
+- From Line 112 to Line 125: [final_asg.py](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/final_asg.py)
+- We need to enter the key for which the data wanted to be deleted.
+-HTML code for it: [click here](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/templates/delete.html)
+
+- OUTPUT: Webpage1
+![alt tag](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/Outputss/delete1.png)
+
+- This leads to the Trip list in Tabular Format after the Deletion.
+
+- OUTPUT: Webpage2
+![alt tag](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/Outputss/delete2.png)
+## Thank you
