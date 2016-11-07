@@ -20,4 +20,6 @@ $sudo apt-get install python-pymysql
 - created a table "location" with columns ID(Primary Key), Name, Latitude and Longitude.
 
 
-## 
+## Python-Flask
+
+My [Python-Flask code](https://github.com/navyadamisetti/Flask-Database-Operations/blob/master/final_asg.py) has different functions to insert, update, delete data and also convert this native data into Json format.
