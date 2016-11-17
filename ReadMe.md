@@ -1,4 +1,4 @@
-# CRUD operations using Flask and Database in Ubuntu
+# CRUD operations using Flask and Database on Ubuntu
    This is to create a list about trip using flask functions where the user can implement CRUD operations using web pages.
    
 ## Requirements>>>
