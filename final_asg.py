@@ -28,10 +28,10 @@ def Main_Menu():
 
 @app.route("/list") #Route for list displaying
 def list():
-    """This will execute query that is used to get 
+    """ This will execute query that is used to get 
     all the rows of table Location"""
     obj.execute("SELECT * FROM location")
-    data=obj.fetchall()
+    data = obj.fetchall()
     
     return render_template('list.html', data = data)
 
@@ -63,10 +63,10 @@ def create_demo():
 
 @app.route('/create1',methods=['POST','GET']) #Route to execute insert Query
 def create_1():
-    """Here the values taken in create route will
+    """ Here the values taken in create route will
     be inserted by executing query"""
     if request.method=='POST':
-        z=request.form['name'] # taking the values from the form
+        z = request.form['name'] # taking the values from the form
 	obj.execute("""INSERT into location(Name,Latitude,Longitude) VALUES (%s,%s,%s)""",(z,request.form['latitude'],request.form['longitude']))
         conn.commit()
 	
